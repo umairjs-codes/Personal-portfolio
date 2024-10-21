@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="skill.css">
+    <!-- Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <nav>
+        <div class="my-logo">
+            <img src="assets/logo.png" alt="Icons">
+        </div>
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h1 class="main">Welcome to My Portfolio</h1>
+        <div class="intro">
+            <p>Hi, my name is <strong>Umair</strong>, and I am an Emerging frontend developer.</p>
+            <img src="assets/profile-pic.png" alt="Umair's Picture" class="profile-pic">
+        </div>
+            <div class="cv-section">
+                <p>Here's my curriculum vitae(CV):</p>
+        <a href="assets/umair's-resume (3).pdf" download="My_CV.pdf" class="btn-download">
+            <i class="fas fa-download"></i> Download CV
+        </a>
+            </div>
+        
+    </section>
+
+    <section id="about">
+        <h2 class="main">About Me</h2>
+        <p>Hi, I'm Syed Umair Ali, a 4th-year B.Tech student of Computer Science and Engineering, specializing in Artificial Intelligence and Machine Learning. I have knowledge of frontend development technologies like HTML, CSS, and JavaScript. I'm a quick learner, always eager to acquire new skills and technologies. Currently, I'm learning the Angular framework to enhance my frontend skills. <br>
+
+            I have applied my skills to various projects, including: <br>
+            
+            - My personal portfolio, showcasing my skills and experiences
+            - A JavaScript-based Rock-Paper-Scissors game
+            - Several small-scale HTML and CSS practice projects, demonstrating my understanding of frontend development fundamentals <br>
+            
+            These projects have helped me gain practical experience and solidify my grasp of web development concepts."</p>
+    </section>
+
+    <section id="skills-section">
+        <h2 class="main">Skills</h2>
+        <div class="skills-container technical-skills">
+            <h3 class="skills-subtitle">Technical Skills</h3>
+            <div class="skill-box html">
+                <i class="fab fa-html5 skill-icon"></i>
+                <p>HTML5</p>
+                <button class="certificate-btn" onclick="window.open('Certificates/html.pdf')">View Certificate</button>
+            </div>
+            <div class="skill-box css">
+                <i class="fab fa-css3-alt skill-icon"></i>
+                <p>CSS3</p>
+                <button class="certificate-btn" onclick="window.open('path-to-your-css-certificate.pdf')">View Certificate</button>
+            </div>
+            <div class="skill-box js">
+                <i class="fab fa-js-square skill-icon"></i>
+                <p>JavaScript</p>
+                <button class="certificate-btn" onclick="window.open('path-to-your-js-certificate.pdf')">View Certificate</button>
+            </div>
+            <div class="skill-box react">
+                <i class="fab fa-react skill-icon"></i>
+                <p>React/Angular JS</p>
+                <button class="certificate-btn" onclick="window.open('path-to-your-react-certificate.pdf')">View Certificate</button>
+            </div>
+        </div>
+          <!-- Soft Skills Section -->
+    <div class="skills-container soft-skills">
+        <h3 class="skills-subtitle">Soft Skills</h3>
+        <div class="skill-box soft-skill-1">Email writing</div>
+        <div class="skill-box soft-skill-2">High impact Presentations</div>
+        <div class="skill-box soft-skill-3">Problem Solving</div>
+        <div class="skill-box soft-skill-4">Time Management</div>
+    </div>
+        <!-- Dynamically added skills will go here -->
+    </section>
+
+    <section id="projects">
+        <h2 class="main">Projects</h2>
+        <p>My awesome projects will be listed here.</p>
+    </section>
+
+    <section id="contact">
+        <h2 class="main">Contact Me</h2>
+        <p>Get in touch via email or follow me on social media!</p>
+
+          <!-- Add this button inside the body tag -->
+<!-- <button id="backToTop" style="display:none; position:fixed; bottom:20px; right:20px;">Back to Top</button> -->
+    </section>
+
+    
+
+
+    <!-- Footer Section -->
+    <footer>
+       <div class="social-links"> 
+         <a href="https://www.linkedin.com/in/syed-umair-ali-a01b87262/" target="_blank" class="social-link">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/umairpixels_/" target="_blank" class="instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+      <p class=".footer-text">Owner's all rights Reserved.</p>
+       
+    </footer> 
+
+    <!-- Back to Top Button -->
+<button id="backToTopBtn"> 
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+
+    <script src="app.js"></script>
+    <!-- <script src="skill.js"></script> -->
+  
+</body>
+</html>
